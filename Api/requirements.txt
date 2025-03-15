@@ -1,0 +1,7 @@
+sanic
+pandas
+sentence-transformers
+sanic-cors
+faiss-cpu
+opencv-python
+easyocr
