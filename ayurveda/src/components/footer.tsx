@@ -18,7 +18,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4 relative">
         <div className="flex items-center justify-between">
           <p className="text-sm text-white">
-            © {new Date().getFullYear()} AyuVritt
+            © {new Date().getFullYear()} subhasou26
           </p>
           <p className="text-sm text-white">Alpha Rengers</p>
           <a
