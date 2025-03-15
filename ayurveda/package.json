@@ -12,7 +12,8 @@
     "next": "15.2.2",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "framer-motion": "^12.4.10"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
