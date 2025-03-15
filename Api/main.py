@@ -10,14 +10,14 @@ from func import (
     get_skincare,
 )
 from sanic_cors import CORS
-
-app = Sanic("AyuVritt")
+import multiprocessing
+app = Sanic("Ayurveda")
 CORS(app)
 
 
 @app.get("/")
 async def hello_world(request):
-    return redirect("https://xditya.me")
+    return json({"hello":"Subha"})
 
 
 @app.get("/getMedicine")
@@ -133,4 +133,5 @@ async def get_beautycare(request):
 port = os.getenv("PORT", 8000)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=port)
+    #multiprocessing.set_start_method("spawn",force=True)
+    app.run(host="0.0.0.0", port=port,single_process=True)
