@@ -1,6 +1,7 @@
 # Ayurveda: Bridging Ancient Wisdom and Modern Healing through AI
 
-![image](https://github.com/user-attachments/assets/23dbba1a-3a2b-447e-802d-11fa060bd411)
+![preview](https://github.com/user-attachments/assets/ef4cead7-bba7-471f-8855-f454d430f08a)
+
 
 
 Ayurveda is an AI-driven platform that integrates Ayurvedic insights with allopathic analysis to create sustainable AYUSH-based formulations. By scientifically validating efficacy and side effects, Ayurveda enhances the credibility and effectiveness of traditional medicine.
