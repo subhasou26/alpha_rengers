@@ -1,9 +1,9 @@
-# AyuVritt: Bridging Ancient Wisdom and Modern Healing through AI
+# Ayurveda: Bridging Ancient Wisdom and Modern Healing through AI
 
 ![image](https://github.com/user-attachments/assets/23dbba1a-3a2b-447e-802d-11fa060bd411)
 
 
-AyuVritt is an AI-driven platform that integrates Ayurvedic insights with allopathic analysis to create sustainable AYUSH-based formulations. By scientifically validating efficacy and side effects, AyuVritt enhances the credibility and effectiveness of traditional medicine.
+Ayurveda is an AI-driven platform that integrates Ayurvedic insights with allopathic analysis to create sustainable AYUSH-based formulations. By scientifically validating efficacy and side effects, Ayurveda enhances the credibility and effectiveness of traditional medicine.
 
 ## Problem Statement
 
@@ -11,7 +11,7 @@ The healthcare industry lacks a system that effectively combines medicinal knowl
 
 ## Solution
 
-AyuVritt addresses this gap by providing an intelligent platform that:
+Ayurveda addresses this gap by providing an intelligent platform that:
 
 **Integrates Ayurvedic and allopathic medicinal knowledge** to offer a holistic approach.
 
