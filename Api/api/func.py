@@ -15,7 +15,10 @@ warnings.filterwarnings(
     message="`clean_up_tokenization_spaces` was not set",
 )
 
-model = SentenceTransformer("paraphrase-MiniLM-L6-v2")
+
+
+
+model = SentenceTransformer("./local_models/paraphrase-MiniLM-L6-v2")
 data = pd.read_csv("datasets/Formulation-Indications - Formulation-Indications.csv")
 dataset = pd.DataFrame(data)
 
