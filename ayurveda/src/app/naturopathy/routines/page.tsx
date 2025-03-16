@@ -194,7 +194,7 @@ function TimelineItem({ activity }: { activity: TimeBlock }) {
         <div className="absolute left-0 top-1 -translate-x-1/2 h-2 w-2 rounded-full bg-emerald-500" />
       </div>
       <div className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition">
-        <div className="text-sm text-emerald-600 font-medium mb-2">
+        <div className="text-sm text-blue-600 font-medium mb-2">
           {activity.time}
         </div>
         <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -211,7 +211,7 @@ function RoutineSection({ section }: { section: RoutineSection }) {
     <div className="mb-12">
       <div className="sticky top-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm p-4 mb-6 z-10">
         <h2 className="text-2xl font-bold text-gray-900">{section.title}</h2>
-        <p className="text-emerald-600">{section.timeRange}</p>
+        <p className="text-blue-600">{section.timeRange}</p>
       </div>
       <div className="space-y-2">
         {section.activities.map((activity, index) => (
@@ -272,28 +272,28 @@ export default function Naturopathy() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Notes</h2>
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-start">
-              <span className="text-emerald-500 mr-2">•</span>
+              <span className="text-blue-500 mr-2">•</span>
               <span>
                 <strong>Hydration:</strong> Drink plenty of water throughout the
                 day, but avoid drinking large amounts during meals.
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-emerald-500 mr-2">•</span>
+              <span className="text-blue-500 mr-2">•</span>
               <span>
                 <strong>Food Portions:</strong> Keep meals light and avoid
                 overeating. Focus on fresh, seasonal, and natural foods.
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-emerald-500 mr-2">•</span>
+              <span className="text-blue-500 mr-2">•</span>
               <span>
                 <strong>Mindfulness:</strong> Practice mindfulness during meals,
                 yoga, and daily activities to stay present and reduce stress.
               </span>
             </li>
             <li className="flex items-start">
-              <span className="text-emerald-500 mr-2">•</span>
+              <span className="text-blue-500 mr-2">•</span>
               <span>
                 <strong>Consistency:</strong> Follow this routine consistently
                 to experience the full benefits of naturopathy.

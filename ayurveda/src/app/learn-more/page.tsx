@@ -8,42 +8,42 @@ export default function LearnMore() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves - Left Side */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
-        <div className="absolute top-1/3 -left-8 transform rotate-45 text-green-600 opacity-20 w-40 h-52">
+        <div className="absolute top-1/3 -left-8 transform rotate-45 text-blue-600 opacity-20 w-40 h-52">
           <Leaf2 />
         </div>
-        <div className="absolute top-2/3 -left-6 transform -rotate-30 text-green-600 opacity-30 w-36 h-48">
+        <div className="absolute top-2/3 -left-6 transform -rotate-30 text-blue-600 opacity-30 w-36 h-48">
           <Leaf3 />
         </div>
       </div>
 
       {/* Decorative Leaves - Right Side */}
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
-        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-green-600 opacity-20 w-40 h-56">
+        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-blue-600 opacity-20 w-40 h-56">
           <Leaf1 />
         </div>
-        <div className="absolute top-3/4 -right-6 transform rotate-30 text-green-600 opacity-30 w-36 h-48">
+        <div className="absolute top-3/4 -right-6 transform rotate-30 text-blue-600 opacity-30 w-36 h-48">
           <Leaf3 />
         </div>
       </div>
 
       {/* Small Floating Leaves */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 left-1/3 text-green-600 opacity-10 w-12 h-12">
+        <div className="absolute top-1/4 left-1/3 text-blue-600 opacity-10 w-12 h-12">
           <SmallLeaf />
         </div>
-        <div className="absolute top-2/3 left-1/4 text-green-600 opacity-10 w-10 h-10">
+        <div className="absolute top-2/3 left-1/4 text-blue-600 opacity-10 w-10 h-10">
           <SmallLeaf />
         </div>
-        <div className="absolute top-1/3 right-1/4 text-green-600 opacity-10 w-8 h-8">
+        <div className="absolute top-1/3 right-1/4 text-blue-600 opacity-10 w-8 h-8">
           <SmallLeaf />
         </div>
-        <div className="absolute top-3/4 right-1/3 text-green-600 opacity-10 w-12 h-12">
+        <div className="absolute top-3/4 right-1/3 text-blue-600 opacity-10 w-12 h-12">
           <SmallLeaf />
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function LearnMore() {
         </div>
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Understanding <span className="text-green-600">AyuVritt</span>
+            Understanding <span className="text-blue-600">AyuVritt</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover how we&apos;re revolutionizing healthcare by combining
@@ -73,7 +73,7 @@ export default function LearnMore() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="bg-white p-8 rounded-xl shadow-sm relative overflow-hidden">
             {/* Subtle corner leaf decoration */}
-            <div className="absolute -bottom-6 -right-6 text-green-600 opacity-5 w-24 h-24">
+            <div className="absolute -bottom-6 -right-6 text-blue-600 opacity-5 w-24 h-24">
               <Leaf1 />
             </div>
 
@@ -88,7 +88,7 @@ export default function LearnMore() {
             <ul className="space-y-3 text-gray-600">
               <li className="flex items-start">
                 <svg
-                  className="w-6 h-6 text-green-600 mr-2 mt-1"
+                  className="w-6 h-6 text-blue-600 mr-2 mt-1"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -104,7 +104,7 @@ export default function LearnMore() {
               </li>
               <li className="flex items-start">
                 <svg
-                  className="w-6 h-6 text-green-600 mr-2 mt-1"
+                  className="w-6 h-6 text-blue-600 mr-2 mt-1"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -120,7 +120,7 @@ export default function LearnMore() {
               </li>
               <li className="flex items-start">
                 <svg
-                  className="w-6 h-6 text-green-600 mr-2 mt-1"
+                  className="w-6 h-6 text-blue-600 mr-2 mt-1"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -139,7 +139,7 @@ export default function LearnMore() {
 
           <div className="bg-white p-8 rounded-xl shadow-sm relative overflow-hidden">
             {/* Subtle corner leaf decoration */}
-            <div className="absolute -bottom-6 -left-6 text-green-600 opacity-5 w-24 h-24">
+            <div className="absolute -bottom-6 -left-6 text-blue-600 opacity-5 w-24 h-24">
               <Leaf2 />
             </div>
 
@@ -152,9 +152,9 @@ export default function LearnMore() {
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
                   <svg
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-blue-600"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -178,9 +178,9 @@ export default function LearnMore() {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
                   <svg
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-blue-600"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -206,7 +206,7 @@ export default function LearnMore() {
           </div>
         </div>
 
-        <div className="bg-green-900 text-white rounded-xl p-8 mb-16 relative overflow-hidden">
+        <div className="bg-blue-900 text-white rounded-xl p-8 mb-16 relative overflow-hidden">
           <div className="relative z-10">
             <h2 className="text-3xl font-bold mb-8 text-center">
               Key Benefits
@@ -229,7 +229,7 @@ export default function LearnMore() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Enhanced Safety</h3>
-                <p className="text-green-100">
+                <p className="text-blue-100">
                   Comprehensive analysis of potential side effects
                 </p>
               </div>
@@ -250,7 +250,7 @@ export default function LearnMore() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Proven Efficacy</h3>
-                <p className="text-green-100">
+                <p className="text-blue-100">
                   Scientifically validated formulations
                 </p>
               </div>
@@ -271,7 +271,7 @@ export default function LearnMore() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Innovation</h3>
-                <p className="text-green-100">
+                <p className="text-blue-100">
                   Bridging traditional wisdom with modern technology
                 </p>
               </div>
@@ -294,7 +294,7 @@ export default function LearnMore() {
               onClick={() => {
                 window.location.href = "/get-started";
               }}
-              className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
             >
               Start Your Journey
             </button>

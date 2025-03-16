@@ -136,12 +136,12 @@ export default function PrescriptionAnalysisPage() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
       </div>
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
       </div>
@@ -186,7 +186,7 @@ export default function PrescriptionAnalysisPage() {
                     accept="image/*"
                     onChange={handleImageSelect}
                   />
-                  <div className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors flex items-center gap-2">
+                  <div className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
                     <svg
                       className="w-5 h-5"
                       fill="none"
@@ -207,7 +207,7 @@ export default function PrescriptionAnalysisPage() {
                 {/* Camera Button */}
                 <button
                   onClick={startCamera}
-                  className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors flex items-center gap-2"
+                  className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -267,7 +267,7 @@ export default function PrescriptionAnalysisPage() {
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-4">
                     <button
                       onClick={capturePhoto}
-                      className="px-4 py-2 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition-colors"
+                      className="px-4 py-2 bg-emerald-600 text-white rounded-full hover:bg-blue-700 transition-colors"
                     >
                       Capture
                     </button>
@@ -295,7 +295,7 @@ export default function PrescriptionAnalysisPage() {
                   <button
                     onClick={analyzeImage}
                     disabled={isLoading}
-                    className="w-full px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors disabled:bg-emerald-400"
+                    className="w-full px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:bg-emerald-400"
                   >
                     {isLoading ? "Analyzing..." : "Analyze Prescription"}
                   </button>

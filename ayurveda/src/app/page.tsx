@@ -10,26 +10,26 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves - Left Side */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
-        <div className="absolute top-1/3 -left-8 transform rotate-45 text-green-600 opacity-20 w-40 h-52">
+        <div className="absolute top-1/3 -left-8 transform rotate-45 text-blue-600 opacity-20 w-40 h-52">
           <Leaf2 />
         </div>
-        <div className="absolute top-2/3 -left-6 transform -rotate-30 text-green-600 opacity-30 w-36 h-48">
+        <div className="absolute top-2/3 -left-6 transform -rotate-30 text-blue-600 opacity-30 w-36 h-48">
           <Leaf3 />
         </div>
       </div>
 
       {/* Decorative Leaves - Right Side */}
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
-        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-green-600 opacity-20 w-40 h-56">
+        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-blue-600 opacity-20 w-40 h-56">
           <Leaf1 />
         </div>
-        <div className="absolute top-3/4 -right-6 transform rotate-30 text-green-600 opacity-30 w-36 h-48">
+        <div className="absolute top-3/4 -right-6 transform rotate-30 text-blue-600 opacity-30 w-36 h-48">
           <Leaf3 />
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Bridging Ancient Wisdom with
-            <span className="text-green-600"> Modern Medicine</span>
+            <span className="text-blue-600"> Modern Medicine</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             An intelligent platform combining Ayurvedic insights with allopathic
@@ -52,13 +52,13 @@ export default function Home() {
           <div className="flex gap-4 justify-center">
             <button
               onClick={() => router.push("/get-started")}
-              className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-green-700 transition"
             >
               Get Started
             </button>
             <button
               onClick={() => router.push("/learn-more")}
-              className="px-8 py-3 border-2 border-green-600 text-green-600 rounded-lg hover:bg-green-50 transition"
+              className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-green-50 transition"
             >
               Learn More
             </button>
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition">
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
               <svg
-                className="w-6 h-6 text-green-600"
+                className="w-6 h-6 text-blue-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition">
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
               <svg
-                className="w-6 h-6 text-green-600"
+                className="w-6 h-6 text-blue-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -120,7 +120,7 @@ export default function Home() {
           <div className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition">
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
               <svg
-                className="w-6 h-6 text-green-600"
+                className="w-6 h-6 text-blue-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -146,22 +146,22 @@ export default function Home() {
 
       {/* Small Floating Leaves */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 left-1/3 text-green-600 opacity-10 w-12 h-12">
+        <div className="absolute top-1/4 left-1/3 text-blue-600 opacity-10 w-12 h-12">
           <SmallLeaf />
         </div>
-        <div className="absolute top-2/3 left-1/4 text-green-600 opacity-10 w-10 h-10">
+        <div className="absolute top-2/3 left-1/4 text-blue-600 opacity-10 w-10 h-10">
           <SmallLeaf />
         </div>
-        <div className="absolute top-1/3 right-1/4 text-green-600 opacity-10 w-8 h-8">
+        <div className="absolute top-1/3 right-1/4 text-blue-600 opacity-10 w-8 h-8">
           <SmallLeaf />
         </div>
-        <div className="absolute top-3/4 right-1/3 text-green-600 opacity-10 w-12 h-12">
+        <div className="absolute top-3/4 right-1/3 text-blue-600 opacity-10 w-12 h-12">
           <SmallLeaf />
         </div>
       </div>
 
       {/* Call to Action */}
-      <div className="bg-green-900 text-white py-16 relative">
+      <div className="bg-blue-900 text-white py-16 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Transform Healthcare?
@@ -172,7 +172,7 @@ export default function Home() {
           </p>
           <button
             onClick={() => router.push("/get-started")}
-            className="px-8 py-3 bg-white text-green-900 rounded-lg hover:bg-green-50 transition"
+            className="px-8 py-3 bg-white text-blue-900 rounded-lg hover:bg-green-50 transition"
           >
             Start Your Journey
           </button>

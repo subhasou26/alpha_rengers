@@ -53,14 +53,14 @@ export default function SkinCarePage() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves - Left */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
       </div>
 
       {/* Decorative Leaves - Right */}
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function SkinCarePage() {
 
         {/* Floating Leaves */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute top-1/4 left-1/3 text-green-600 opacity-10 w-8 h-8">
+          <div className="absolute top-1/4 left-1/3 text-blue-600 opacity-10 w-8 h-8">
             <SmallLeaf />
           </div>
         </div>

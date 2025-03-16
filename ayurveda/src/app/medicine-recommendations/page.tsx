@@ -286,14 +286,14 @@ export default function Start() {
       may be experiencing{" "}
       <span className="text-red-700 font-medium">{diseaseInfo}</span>. We
       recommend{" "}
-      <span className="text-green-700 font-medium">{medicineInfo}</span>, a
+      <span className="text-blue-700 font-medium">{medicineInfo}</span>, a
       time-tested Ayurvedic remedy rooted in ancient formulations known for its
       natural healing properties.
     </span>,
     <span key="2">
       Based on a detailed evaluation of your symptoms, it appears that you may
       have <span className="text-red-700 font-medium">{diseaseInfo}</span>.{" "}
-      <span className="text-green-700 font-medium">{medicineInfo}</span> is a
+      <span className="text-blue-700 font-medium">{medicineInfo}</span> is a
       traditional Ayurvedic remedy, derived from ancient formulations, known for
       its effectiveness in promoting recovery.
     </span>,
@@ -301,14 +301,14 @@ export default function Start() {
       Our thorough analysis of your symptoms suggests a likelihood of{" "}
       <span className="text-red-700 font-medium">{diseaseInfo}</span>. We
       recommend{" "}
-      <span className="text-green-700 font-medium">{medicineInfo}</span>, an
+      <span className="text-blue-700 font-medium">{medicineInfo}</span>, an
       ancient Ayurvedic formulation trusted for centuries to support natural
       healing and balance.
     </span>,
     <span key="4">
       Following a detailed analysis of your symptoms, the findings suggest{" "}
       <span className="text-red-700 font-medium">{diseaseInfo}</span>.{" "}
-      <span className="text-green-700 font-medium">{medicineInfo}</span> is a
+      <span className="text-blue-700 font-medium">{medicineInfo}</span> is a
       classical Ayurvedic remedy, carefully preserved from ancient traditions to
       restore health and well-being.
     </span>,
@@ -316,7 +316,7 @@ export default function Start() {
       Our evaluation points to{" "}
       <span className="text-red-700 font-medium">{diseaseInfo}</span> based on
       your symptoms. We suggest trying{" "}
-      <span className="text-green-700 font-medium">{medicineInfo}</span>, a
+      <span className="text-blue-700 font-medium">{medicineInfo}</span>, a
       well-established Ayurvedic remedy from ancient texts, known for its
       targeted healing properties.
     </span>,
@@ -324,7 +324,7 @@ export default function Start() {
       Based on a comprehensive analysis of your symptoms, you may be
       experiencing{" "}
       <span className="text-red-700 font-medium">{diseaseInfo}</span>.{" "}
-      <span className="text-green-700 font-medium">{medicineInfo}</span> is a
+      <span className="text-blue-700 font-medium">{medicineInfo}</span> is a
       traditional Ayurvedic solution, derived from ancient wisdom, and valued
       for its natural effectiveness in restoring balance and health.
     </span>,
@@ -334,20 +334,20 @@ export default function Start() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves - Left Side */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
-        <div className="absolute top-1/3 -left-8 transform rotate-45 text-green-600 opacity-20 w-40 h-52">
+        <div className="absolute top-1/3 -left-8 transform rotate-45 text-blue-600 opacity-20 w-40 h-52">
           <Leaf2 />
         </div>
       </div>
 
       {/* Decorative Leaves - Right Side */}
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
-        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-green-600 opacity-20 w-40 h-56">
+        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-blue-600 opacity-20 w-40 h-56">
           <Leaf1 />
         </div>
       </div>

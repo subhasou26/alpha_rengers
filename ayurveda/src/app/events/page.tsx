@@ -59,7 +59,7 @@ function EventCard({ event }: { event: Event }) {
             <h3 className="text-xl font-semibold text-gray-900 mb-1">
               {event.title}
             </h3>
-            <p className="text-emerald-600 font-medium mb-2">
+            <p className="text-blue-600 font-medium mb-2">
               {new Date(event.date).toLocaleDateString("en-US", {
                 weekday: "long",
                 year: "numeric",
@@ -100,7 +100,7 @@ function EventCard({ event }: { event: Event }) {
           <div className="text-sm">
             <span
               className={`font-medium ${
-                isAlmostFull ? "text-red-600" : "text-emerald-600"
+                isAlmostFull ? "text-red-600" : "text-blue-600"
               }`}
             >
               {spotsLeft} spots left
@@ -110,7 +110,7 @@ function EventCard({ event }: { event: Event }) {
               ({event.currentParticipants}/{event.maxParticipants})
             </span>
           </div>
-          <button className="px-4 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition">
+          <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
             Register
           </button>
         </div>
@@ -124,14 +124,14 @@ export default function EventsPage() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves - Left */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
       </div>
 
       {/* Decorative Leaves - Right */}
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
       </div>
@@ -166,10 +166,10 @@ export default function EventsPage() {
 
         {/* Floating Leaves */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute top-1/4 left-1/3 text-green-600 opacity-10 w-8 h-8">
+          <div className="absolute top-1/4 left-1/3 text-blue-600 opacity-10 w-8 h-8">
             <SmallLeaf />
           </div>
-          <div className="absolute bottom-1/4 right-1/3 text-green-600 opacity-10 w-8 h-8">
+          <div className="absolute bottom-1/4 right-1/3 text-blue-600 opacity-10 w-8 h-8">
             <SmallLeaf />
           </div>
         </div>

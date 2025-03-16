@@ -2,7 +2,7 @@ import { SmallLeaf } from "./leaves";
 
 export function Footer() {
   return (
-    <footer className="bg-green-900 py-4 relative overflow-hidden">
+    <footer className="bg-blue-900 py-4 relative overflow-hidden">
       {/* Decorative Leaves */}
       <div className="absolute left-0 bottom-0 w-16 pointer-events-none">
         <div className="absolute -left-2 bottom-0 transform -rotate-15 text-emerald-600/[0.03] w-20 h-32">

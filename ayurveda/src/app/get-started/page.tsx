@@ -28,7 +28,7 @@ export default function GetStarted() {
       link: "/medicine-recommendations",
       icon: (
         <svg
-          className="w-6 h-6 text-green-600"
+          className="w-6 h-6 text-blue-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ export default function GetStarted() {
       link: "/medicine-information",
       icon: (
         <svg
-          className="w-6 h-6 text-green-600"
+          className="w-6 h-6 text-blue-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -69,7 +69,7 @@ export default function GetStarted() {
       link: "/yoga-therapies",
       icon: (
         <svg
-          className="w-6 h-6 text-emerald-600"
+          className="w-6 h-6 text-blue-600"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -93,7 +93,7 @@ export default function GetStarted() {
       link: "/meditation",
       icon: (
         <svg
-          className="w-6 h-6 text-emerald-600"
+          className="w-6 h-6 text-blue-600"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -114,7 +114,7 @@ export default function GetStarted() {
       link: "/events",
       icon: (
         <svg
-          className="w-6 h-6 text-emerald-600"
+          className="w-6 h-6 text-blue-600"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -138,7 +138,7 @@ export default function GetStarted() {
       link: "/naturopathy",
       icon: (
         <svg
-          className="w-6 h-6 text-emerald-600"
+          className="w-6 h-6 text-blue-600"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -160,19 +160,19 @@ export default function GetStarted() {
       title: "Rising Tree",
       description: "Focusing on chakras",
       link: "/rising-tree",
-      icon: <PlantIcon className="w-6 h-6 text-emerald-600" />,
+      icon: <PlantIcon className="w-6 h-6 text-blue-600" />,
     },
     {
       title: "Prescription Analysis",
       description: "Analysing hand written prescriptions",
       link: "/prescription-analysis",
-      icon: <PrescriptionIcon className="w-6 h-6 text-emerald-600" />,
+      icon: <PrescriptionIcon className="w-6 h-6 text-blue-600" />,
     },
     {
       title: "Beauty Care",
       description: "Ayurvedic beauty care tips",
       link: "/beauty-care",
-      icon: <SkincareIcon className="w-6 h-6 text-emerald-600" />,
+      icon: <SkincareIcon className="w-6 h-6 text-blue-600" />,
     },
   ];
 
@@ -180,26 +180,26 @@ export default function GetStarted() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves - Left Side */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
-        <div className="absolute top-1/3 -left-8 transform rotate-45 text-green-600 opacity-20 w-40 h-52">
+        <div className="absolute top-1/3 -left-8 transform rotate-45 text-blue-600 opacity-20 w-40 h-52">
           <Leaf2 />
         </div>
-        <div className="absolute top-2/3 -left-6 transform -rotate-30 text-green-600 opacity-30 w-36 h-48">
+        <div className="absolute top-2/3 -left-6 transform -rotate-30 text-blue-600 opacity-30 w-36 h-48">
           <Leaf3 />
         </div>
       </div>
 
       {/* Decorative Leaves - Right Side */}
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
-        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-green-600 opacity-20 w-40 h-56">
+        <div className="absolute top-1/2 -right-10 transform -rotate-45 text-blue-600 opacity-20 w-40 h-56">
           <Leaf1 />
         </div>
-        <div className="absolute top-3/4 -right-6 transform rotate-30 text-green-600 opacity-30 w-36 h-48">
+        <div className="absolute top-3/4 -right-6 transform rotate-30 text-blue-600 opacity-30 w-36 h-48">
           <Leaf3 />
         </div>
       </div>
@@ -218,7 +218,7 @@ export default function GetStarted() {
             />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Choose Your Path to <span className="text-green-600">Wellness</span>
+            Choose Your Path to <span className="text-blue-600">Wellness</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Select from our range of services to begin your journey towards
@@ -248,16 +248,16 @@ export default function GetStarted() {
 
       {/* Small Floating Leaves */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 left-1/3 text-green-600 opacity-10 w-12 h-12">
+        <div className="absolute top-1/4 left-1/3 text-blue-600 opacity-10 w-12 h-12">
           <SmallLeaf />
         </div>
-        <div className="absolute top-2/3 left-1/4 text-green-600 opacity-10 w-10 h-10">
+        <div className="absolute top-2/3 left-1/4 text-blue-600 opacity-10 w-10 h-10">
           <SmallLeaf />
         </div>
-        <div className="absolute top-1/3 right-1/4 text-green-600 opacity-10 w-8 h-8">
+        <div className="absolute top-1/3 right-1/4 text-blue-600 opacity-10 w-8 h-8">
           <SmallLeaf />
         </div>
-        <div className="absolute top-3/4 right-1/3 text-green-600 opacity-10 w-12 h-12">
+        <div className="absolute top-3/4 right-1/3 text-blue-600 opacity-10 w-12 h-12">
           <SmallLeaf />
         </div>
       </div>

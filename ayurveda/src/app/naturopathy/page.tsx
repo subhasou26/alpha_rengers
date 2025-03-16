@@ -11,12 +11,12 @@ export default function NaturopathyPage() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
       {/* Decorative Leaves */}
       <div className="absolute left-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-20 -left-4 transform -rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-20 -left-4 transform -rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf1 />
         </div>
       </div>
       <div className="absolute right-0 top-0 bottom-0 w-24 pointer-events-none">
-        <div className="absolute top-24 -right-4 transform rotate-15 text-green-600 opacity-20 w-32 h-48">
+        <div className="absolute top-24 -right-4 transform rotate-15 text-blue-600 opacity-20 w-32 h-48">
           <Leaf2 />
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function NaturopathyPage() {
             className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden"
           >
             <div className="p-8">
-              <div className="w-12 h-12 mb-4 text-emerald-600">
+              <div className="w-12 h-12 mb-4 text-blue-600">
                 <RoutineIcon />
               </div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-2">
@@ -63,7 +63,7 @@ export default function NaturopathyPage() {
                 Discover a structured daily schedule for optimal health and
                 well-being through natural practices.
               </p>
-              <div className="mt-4 text-emerald-600 group-hover:translate-x-2 transition-transform">
+              <div className="mt-4 text-blue-600 group-hover:translate-x-2 transition-transform">
                 View Schedule →
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function NaturopathyPage() {
             className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden"
           >
             <div className="p-8">
-              <div className="w-12 h-12 mb-4 text-emerald-600">
+              <div className="w-12 h-12 mb-4 text-blue-600">
                 <ChecklistIcon />
               </div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-2">
@@ -85,7 +85,7 @@ export default function NaturopathyPage() {
                 Get a comprehensive list of essential items needed for your
                 naturopathy journey.
               </p>
-              <div className="mt-4 text-emerald-600 group-hover:translate-x-2 transition-transform">
+              <div className="mt-4 text-blue-600 group-hover:translate-x-2 transition-transform">
                 View Checklist →
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function NaturopathyPage() {
 
         {/* Floating Leaf */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute top-1/4 left-1/3 text-green-600 opacity-10 w-8 h-8">
+          <div className="absolute top-1/4 left-1/3 text-blue-600 opacity-10 w-8 h-8">
             <SmallLeaf />
           </div>
         </div>
